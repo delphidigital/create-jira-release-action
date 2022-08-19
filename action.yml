@@ -1,5 +1,8 @@
 name: "Jira Release Web Hook"
 description: "Creates a new Jira release and assigns all relevant issues to it."
+branding:
+  color: blue
+  icon: bell
 inputs:
   jira-project-key:
     description: "Jira project identifier"
